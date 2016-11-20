@@ -3,7 +3,6 @@ Sys.setenv(HADOOP_STREAMING="/usr/local/hadoop/share/hadoop/tools/lib/hadoop-str
 
 hdfs.root <- 'exercise1'
 hdfs.data <- file.path(hdfs.root, 'input', 'esempio.txt')
-#hdfs.data <- file.path('/user/hduser/exercise1/input/esempio.txt')
 hdfs.out <- file.path(hdfs.root, 'out')
 
 library(rmr2)
